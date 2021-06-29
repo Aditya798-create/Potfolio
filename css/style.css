@@ -104,7 +104,7 @@ header p {
   background-color: #eee;
   width: 100%;
   padding: 6rem;
-  margin-top: -5rem;
+  margin-top: -50rem;
 }
 
 .quote {
@@ -128,10 +128,11 @@ header p {
   text-align: center;
   margin-top: 10rem;
   margin-bottom: 10rem;
+  font-weight: lighter;
 }
 
 .card {
-  margin-left: 2rem;
+  margin-left: 4rem;
   margin-top: 2rem;
 }
 
@@ -150,19 +151,22 @@ header p {
   text-transform: lowercase;
   font-size: 1.3rem;
 }
-footer{
-  text-align: center;
-  margin-top: 6rem;
-  text-decoration: none;
+
+.car-1 {
+  position: relative;
+  left: 34rem;
+  top: -25rem;
 }
 
-footer p {
-  font-size: 1.5rem;
-  margin-top: 4rem;
+.car-2 {
+  position: relative;
+  left: 68rem;
+  top: -51rem;
 }
 
 #lab_social_icon_footer {
   padding: 40px 0;
+  margin-top: 5rem;
 }
 
 #lab_social_icon_footer a {
@@ -223,18 +227,31 @@ footer p {
     }
 
     .welcome {
-      width: 114.4%;
+      width: 107.4%;
     }
     .welcome h1 {
       font-size: 3rem;
       margin-left: 1.3rem;
     }
 
-    .ab {
+     .ab {
+      width: 99%;
+      margin-top: -1rem;
+    }
+
+    .mystory {
       width: 99%;
     }
 .mystory .para {
   font-size: 0.9rem;
+}
+
+.card {
+  margin-left: -0.5rem;
+}
+
+.car {
+  margin-left: 1.6rem;
 }
 
 .ab .quote {
@@ -247,6 +264,23 @@ footer p {
 }
     .img1 {
       height: 20rem;
-      width: 100%;
+      width: 98%;
+    }
+
+    .skillset .text {
+      margin-top: 4rem;
+    }
+
+    .car-1 {
+      position: relative;
+      left: 2.2rem;
+      top: 1.4rem;
+      width: 18rem;
+    }
+
+    .car-2 {
+      position: relative;
+      left: 2.2rem;
+      top: 2rem;
     }
 }

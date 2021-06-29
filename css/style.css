@@ -251,7 +251,7 @@ header p {
 }
 
 .car {
-  margin-left: 1.6rem;
+  margin-left: 2.3rem;
 }
 
 .ab .quote {
@@ -273,14 +273,14 @@ header p {
 
     .car-1 {
       position: relative;
-      left: 2.2rem;
+      left: 2.8rem;
       top: 1.4rem;
       width: 18rem;
     }
 
     .car-2 {
       position: relative;
-      left: 2.2rem;
+      left: 2.8rem;
       top: 2rem;
     }
 }

@@ -44,7 +44,6 @@ header p {
   color: #000;
   font-family: 'Roboto', sans-serif;
 } */
-
 .welcome {
   background-color: #000;
   margin-top: 5rem;
@@ -70,7 +69,7 @@ header p {
 }
 
 .mystory {
-  background-color: rgb(254,252,143);
+  background-color: rgb(254, 252, 143);
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -84,7 +83,7 @@ header p {
 }
 
 .mystory {
-  background-color:rgb(254,252,143);
+  background-color: rgb(254, 252, 143);
   padding: 5rem 1rem;
 }
 
@@ -123,14 +122,12 @@ header p {
   text-align: center;
   font-size: 2rem;
   font-weight: 300;
-
 }
 
 .name {
   text-align: center;
   font-family: 'Times New Roman', sans-serif;
   font-size: 1.2rem;
-
 }
 
 .skillset .text {
@@ -147,7 +144,7 @@ header p {
 }
 
 .card-body {
-  background-color: rgb(254,252,143);
+  background-color: rgb(254, 252, 143);
 }
 
 .card-text {
@@ -192,7 +189,6 @@ header p {
 #lab_social_icon_footer .social {
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
-
   -moz-transform: scale(0.8);
   -o-transform: scale(0.8);
   -webkit-transition-duration: 0.5s;
@@ -201,131 +197,191 @@ header p {
 }
 
 /* Contact */
-form { max-width:420px; margin:50px auto; }
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
 
 .feedback-input {
-  color:#000;
+  color: #000;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
+  font-weight: 500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border: 2px solid #CC6666;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
-  width:100%;
+  width: 100%;
   box-sizing: border-box;
-  outline:0;
+  outline: 0;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus {
+  border: 2px solid #CC4949;
+}
 
 textarea {
   height: 150px;
   line-height: 150%;
-  resize:vertical;
+  resize: vertical;
 }
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
+  background: #CC6666;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-[type="submit"]:hover { background:#CC4949; }
-
-@media only screen and (max-width: 768px)  {
-    header {
-      position: relative;
-      left: 3rem;
-    }
-    header p {
-      position: relative;
-      left: 1rem;
-      font-family: 'Open Sans Condensed', sans-serif;
-      font-size: 1.5rem;
-    }
-
-    .nav-link {
-      margin-left: -1rem;
-      font-size: 1rem;
-    }
-
-    .welcome {
-      width: 108.8%;
-    }
-    .welcome h1 {
-      font-size: 3rem;
-      margin-left: 1.3rem;
-    }
-
-     .ab {
-      width: 99.9%;
-      margin-top: -1rem;
-    }
-
-    .mystory {
-      width: 99.8%;
-    }
-.mystory .para {
-  font-size: 0.9rem;
+  margin-top: -4px;
+  font-weight: 700;
 }
 
-.card {
-  margin-left: -0.5rem;
+[type="submit"]:hover {
+  background: #CC4949;
 }
 
-.car {
-  margin-left: 2.5rem;
+.education {
+  background-color: #eee;
+  padding: 6rem;
+  position: relative;
+  top: 7rem;
 }
 
-.ab .quote {
+.education h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  position: relative;
+  top: -2rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.luist {
+  font-size: 2rem;
+  margin-top: 3rem;
+  font-family: "Times New Roman", sans-serif;
+  list-style-type: none;
+  margin-left: 2rem;
+  text-transform: uppercase;
+}
+
+.list {
   font-size: 1.2rem;
-  padding-top: -6rem;
-  margin-top: -2rem;
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
 }
 
-.ab .name {
-  font-size: 1rem;
-}
-    .img1 {
-      height: 20rem;
-      width: 98.3%;
-    }
+@media only screen and (max-width: 768px) {
+  header {
+    position: relative;
+    left: 3rem;
+  }
 
-    .skillset .text {
-      margin-top: 4rem;
-    }
+  header p {
+    position: relative;
+    left: 1rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+  }
 
-    .car-1 {
-      position: relative;
-      left: 3.4rem;
-      top: 1.4rem;
-      width: 18rem;
-    }
+  .nav-link {
+    margin-left: -1rem;
+    font-size: 1rem;
+  }
 
-    .car-2 {
-      position: relative;
-      left: 3.4rem;
-      top: 2rem;
-    }
+  .welcome {
+    width: 108.8%;
+  }
 
-    form {
-      margin-top: 3rem;
-      width: 90%;
-    }
-    label {
-      margin-left: 1rem;
-    }
+  .welcome h1 {
+    font-size: 3rem;
+    margin-left: 1.3rem;
+  }
+
+  .ab {
+    width: 99.9%;
+    margin-top: -1rem;
+  }
+
+  .mystory {
+    width: 99.8%;
+  }
+
+  .mystory .para {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    margin-left: -0.5rem;
+  }
+
+  .car {
+    margin-left: 2.5rem;
+  }
+
+  .ab .quote {
+    font-size: 1.2rem;
+    padding-top: -6rem;
+    margin-top: -2rem;
+  }
+
+  .ab .name {
+    font-size: 1rem;
+  }
+
+  .img1 {
+    height: 20rem;
+    width: 98.3%;
+  }
+
+  .skillset .text {
+    margin-top: 4rem;
+  }
+
+  .car-1 {
+    position: relative;
+    left: 3.4rem;
+    top: 1.4rem;
+    width: 18rem;
+  }
+
+  .car-2 {
+    position: relative;
+    left: 3.4rem;
+    top: 2rem;
+  }
+
+  form {
+    margin-top: 3rem;
+    width: 90%;
+  }
+
+  label {
+    margin-left: 1rem;
+  }
+
+  .education h1 {
+    font-size: 2rem;
+  }
+
+  .luist {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: -02rem;
+  }
+
+  .list { 
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+  }
 }

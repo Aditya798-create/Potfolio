@@ -1,0 +1,14 @@
+#lab_social_icon_footer {
+    padding: 40px 0;
+    margin-top: 2rem;
+    margin-left: -70rem;
+  }
+
+  @media only screen and (max-width: 768px)  {
+    #lab_social_icon_footer {
+        position: relative;
+        left:34rem;
+    }
+  }
+
+  
